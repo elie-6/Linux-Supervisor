@@ -39,7 +39,7 @@ static void apply_cpu_limit(const char *program_path, double cpu_limit) {
     snprintf(cpu_file, sizeof(cpu_file),
              "%s/cpu.max", program_path);
 
-    long quota = (long)(cpu_limit * 100000); // 0.5 CPU to 50000 μs
+    long quota = (long)(cpu_limit * 100000); // 0.5 CPU to 50000
     char value[64];
     snprintf(value, sizeof(value), "%ld 100000", quota);
 
