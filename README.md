@@ -217,4 +217,6 @@ This project demonstrates:
 
 It's fully working, tested, and production-grade in the scope of a project — and demonstrates my Linux expertise.
 
+**Developed on Linux Ubuntu VM from MacOS**
+
 ---
